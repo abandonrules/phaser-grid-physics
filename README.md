@@ -2,6 +2,8 @@
 
 The Grid Physics plugin is to Arcade physics what Arcade physics is to Box2D. :-) This plugin adds support for grid/tile based movement along with some other stuff to make your life easier if you choose the path of grid restricted movement. My aim is to build the API as close as possible to Arcade physics.
 
+**Status:** The development is put on hold and will be ported to Phaser 3 when it's released. My plan is to create a RPG with the plugin and I prefer a delay over being stuck with Phaser 2. (Don't get me wrong. Phaser 2 is great but for a long-term project I prefer to wait.) **However:** the plugin will work great for a lot of projects in it's present form (read the "known annoyning bugs"-section). I will also accept PRs.
+
 **Setup instructions** is in the end of this file.
 
 **Demo** is hosted here: http://metroid.niklasberg.se/gridPhysics/
@@ -114,7 +116,7 @@ Depending on the interest I may add extra features. Some of the features is quic
 **Clone this repo:**<br>
 Navigate into your workspace directory.
 Run:
-`git clone https://github.com/nkholski/grid-physics`
+`git clone https://github.com/nkholski/phaser-grid-physics`
 
 **Install dependencies (if you don't have them):**
 * [Node.js](http://nodejs.org): `brew install node` on OS X
@@ -124,7 +126,7 @@ Run:
 **Running the demo:**<br>
 `brunch watch --server` — watches the project with continuous rebuild. This will also launch HTTP server with [pushState](https://developer.mozilla.org/en-US/docs/Web/Guide/API/DOM/Manipulating_the_browser_history). The local url will be http://localhost:3333/demo/
 
-**Buildning the plugin (and demo):**<br>
+**Building the plugin (and demo):**<br>
 `brunch build --production` — builds minified project for production in the dist folder, both the demo and the plugin. The filename of the plugin is "gridPhysics.js".
 
 ## API Documentation
